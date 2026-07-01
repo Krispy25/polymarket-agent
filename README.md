@@ -6,8 +6,7 @@ reality before any real capital is involved.
 
 ## What this is NOT
 
-This does not compound 3%/day. On a live pull (2026-06-30), the actual raw
-edges on near-certain markets ranged ~0.5%-3.4% *per market*, realized over
+On a live pull (2026-06-30), the actual raw edges on near-certain markets ranged ~0.5%-3.4% *per market*, realized over
 days to months, not daily. A handful of them are correlated (all "will X win
 the World Cup" markets move together on the same tournament outcome), so
 they are not independent bets either.
