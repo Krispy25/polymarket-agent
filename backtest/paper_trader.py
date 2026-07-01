@@ -16,6 +16,7 @@ MIN_DAYS_TO_RESOLUTION = 0.5  # skip markets resolving in <12h, too noisy to siz
 FIELDS = [
     "logged_at", "slug", "question", "outcome", "price",
     "days_to_resolution", "raw_return_pct", "position_size", "status",
+    "pnl",
 ]
 
 
@@ -29,13 +30,23 @@ def size_position(candidate, bankroll):
     return round(min(size, bankroll * MAX_POSITION_PCT), 2)
 
 
+def already_logged_slugs():
+    if not os.path.exists(LOG_PATH):
+        return set()
+    with open(LOG_PATH, newline="") as f:
+        return {row["slug"] for row in csv.DictReader(f)}
+
+
 def log_trades(candidates, bankroll=BANKROLL):
     is_new = not os.path.exists(LOG_PATH)
+    seen = already_logged_slugs()
     with open(LOG_PATH, "a", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDS)
         if is_new:
             writer.writeheader()
         for c in candidates:
+            if c["slug"] in seen:
+                continue
             if c["days_to_resolution"] < MIN_DAYS_TO_RESOLUTION:
                 continue
             size = size_position(c, bankroll)
@@ -51,6 +62,7 @@ def log_trades(candidates, bankroll=BANKROLL):
                 "raw_return_pct": c["raw_return_pct"],
                 "position_size": size,
                 "status": "open",
+                "pnl": "",
             })
 
 

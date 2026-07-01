@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Polymarket Paper Trading Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  body { font-family: -apple-system, sans-serif; margin: 2rem; background: #0d1117; color: #e6edf3; }
+  h1 { font-size: 1.4rem; }
+  .stats { display: flex; gap: 2rem; margin: 1.5rem 0; }
+  .stat { background: #161b22; padding: 1rem 1.5rem; border-radius: 8px; }
+  .stat .label { font-size: 0.75rem; color: #8b949e; text-transform: uppercase; }
+  .stat .value { font-size: 1.6rem; font-weight: 600; }
+  table { border-collapse: collapse; width: 100%; margin-top: 1rem; font-size: 0.85rem; }
+  th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid #21262d; }
+  th { color: #8b949e; }
+  .win { color: #3fb950; }
+  .loss { color: #f85149; }
+  .open { color: #d29922; }
+  canvas { background: #161b22; border-radius: 8px; padding: 1rem; }
+</style>
+</head>
+<body>
+<h1>Polymarket Paper Trading Dashboard</h1>
+<p style="color:#8b949e">Not real trading yet -- simulated positions only. See README for what's still missing before real capital.</p>
+
+<div class="stats">
+  <div class="stat"><div class="label">Bankroll</div><div class="value">$10,000.00</div></div>
+  <div class="stat"><div class="label">Total PnL</div><div class="value">$0.00</div></div>
+  <div class="stat"><div class="label">Win Rate</div><div class="value">n/a</div></div>
+  <div class="stat"><div class="label">Settled</div><div class="value">0</div></div>
+  <div class="stat"><div class="label">Open</div><div class="value">34</div></div>
+</div>
+
+<canvas id="curveChart" height="80"></canvas>
+
+<h2>Open Positions</h2>
+<table>
+<tr><th>Question</th><th>Outcome</th><th>Entry Price</th><th>Days to Resolution</th><th>Position Size</th></tr>
+<tr><td>Will Erling Haaland be the top goalscorer at the 2026 FIFA World Cup?</td><td>No</td><td>0.967</td><td>18.83</td><td>$467.00</td></tr>
+<tr><td>Will Mexico win the 2026 FIFA World Cup?</td><td>No</td><td>0.968</td><td>18.83</td><td>$467.50</td></tr>
+<tr><td>Will Morocco win the 2026 FIFA World Cup?</td><td>No</td><td>0.969</td><td>18.83</td><td>$468.50</td></tr>
+<tr><td>Will USA win the 2026 FIFA World Cup?</td><td>No</td><td>0.970</td><td>18.83</td><td>$469.50</td></tr>
+<tr><td>Will Claude Fable 5 be restored for US customers by July 1?</td><td>Yes</td><td>0.972</td><td>0.53</td><td>$472.00</td></tr>
+<tr><td>Will Colombia win the 2026 FIFA World Cup?</td><td>No</td><td>0.973</td><td>18.83</td><td>$472.50</td></tr>
+<tr><td>Will Norway win the 2026 FIFA World Cup?</td><td>No</td><td>0.982</td><td>18.83</td><td>$481.50</td></tr>
+<tr><td>Will Belgium win the 2026 FIFA World Cup?</td><td>No</td><td>0.989</td><td>18.83</td><td>$488.50</td></tr>
+<tr><td>Will LeBron James play for the Los Angeles Lakers in 2026-27?</td><td>No</td><td>0.991</td><td>122.83</td><td>$490.50</td></tr>
+<tr><td>Will Switzerland win the 2026 FIFA World Cup?</td><td>No</td><td>0.992</td><td>18.83</td><td>$491.50</td></tr>
+<tr><td>Will the next diplomatic US-Iran meeting be in another country by September 30, 2026?</td><td>No</td><td>0.992</td><td>91.83</td><td>$491.50</td></tr>
+<tr><td>Will Corey Seager win the 2026 American League MVP Award?</td><td>No</td><td>0.992</td><td>134.83</td><td>$492.00</td></tr>
+<tr><td>Will Andrew Yang win the 2028 Democratic presidential nomination?</td><td>No</td><td>0.994</td><td>859.83</td><td>$493.50</td></tr>
+<tr><td>Will Senegal win the 2026 FIFA World Cup?</td><td>No</td><td>0.995</td><td>18.83</td><td>$494.50</td></tr>
+<tr><td>Will Sébastien Lecornu be the next leader out before 2027?</td><td>No</td><td>0.995</td><td>182.83</td><td>$495.00</td></tr>
+<tr><td>Los Angeles Dodgers vs. Athletics</td><td>Los Angeles Dodgers</td><td>0.995</td><td>6.9</td><td>$495.00</td></tr>
+<tr><td>Will Croatia win the 2026 FIFA World Cup?</td><td>No</td><td>0.996</td><td>18.83</td><td>$495.50</td></tr>
+<tr><td>Will Benny Gantz be the next Prime Minister of Israel?</td><td>No</td><td>0.996</td><td>182.83</td><td>$495.50</td></tr>
+<tr><td>Will Amir Ohana be the next Prime Minister of Israel?</td><td>No</td><td>0.997</td><td>182.83</td><td>$496.50</td></tr>
+<tr><td>Will Canada win the 2026 FIFA World Cup?</td><td>No</td><td>0.998</td><td>18.83</td><td>$497.50</td></tr>
+<tr><td>Will Luiz Inácio Lula da Silva be the next leader out before 2027?</td><td>No</td><td>0.998</td><td>182.83</td><td>$497.50</td></tr>
+<tr><td>Will Paraguay win the 2026 FIFA World Cup?</td><td>No</td><td>0.998</td><td>18.83</td><td>$497.50</td></tr>
+<tr><td>Will Donald Trump be the next leader out before 2027?</td><td>No</td><td>0.998</td><td>182.83</td><td>$497.50</td></tr>
+<tr><td>Will Dayana Yastremska be the 2026 Women’s Wimbledon Winner?</td><td>No</td><td>0.998</td><td>10.83</td><td>$497.50</td></tr>
+<tr><td>Will Xinyu Wang be the 2026 Women’s Wimbledon Winner?</td><td>No</td><td>0.998</td><td>10.83</td><td>$498.00</td></tr>
+<tr><td>Will Egypt win the 2026 FIFA World Cup?</td><td>No</td><td>0.999</td><td>18.83</td><td>$498.50</td></tr>
+<tr><td>Will Algeria win the 2026 FIFA World Cup?</td><td>No</td><td>0.999</td><td>18.83</td><td>$498.50</td></tr>
+<tr><td>Will Austria win the 2026 FIFA World Cup?</td><td>No</td><td>0.999</td><td>18.83</td><td>$498.50</td></tr>
+<tr><td>Will Australia win the 2026 FIFA World Cup?</td><td>No</td><td>0.999</td><td>18.83</td><td>$498.50</td></tr>
+<tr><td>Will Ecuador win the 2026 FIFA World Cup?</td><td>No</td><td>1.000</td><td>18.83</td><td>$499.50</td></tr>
+<tr><td>Will Ghana win the 2026 FIFA World Cup?</td><td>No</td><td>1.000</td><td>18.83</td><td>$499.50</td></tr>
+<tr><td>Will Cape Verde win the 2026 FIFA World Cup?</td><td>No</td><td>1.000</td><td>18.83</td><td>$499.50</td></tr>
+<tr><td>Will Bosnia-Herzegovina win the 2026 FIFA World Cup?</td><td>No</td><td>1.000</td><td>18.83</td><td>$499.50</td></tr>
+<tr><td>Will Congo DR win the 2026 FIFA World Cup?</td><td>No</td><td>1.000</td><td>18.83</td><td>$499.50</td></tr>
+</table>
+
+<h2>Settled Trades</h2>
+<table>
+<tr><th>Question</th><th>Outcome</th><th>Entry Price</th><th>Status</th><th>PnL</th></tr>
+<tr><td colspan='5'>None yet</td></tr>
+</table>
+
+<script>
+const curve = [{"trade": 0, "bankroll": 10000.0}];
+new Chart(document.getElementById('curveChart'), {
+  type: 'line',
+  data: {
+    labels: curve.map(c => c.trade),
+    datasets: [{
+      label: 'Bankroll',
+      data: curve.map(c => c.bankroll),
+      borderColor: '#58a6ff',
+      backgroundColor: 'rgba(88,166,255,0.1)',
+      fill: true,
+      tension: 0.15,
+    }]
+  },
+  options: {
+    scales: {
+      x: { title: { display: true, text: 'Settled trade #', color: '#8b949e' }, ticks: { color: '#8b949e' } },
+      y: { ticks: { color: '#8b949e' } }
+    },
+    plugins: { legend: { labels: { color: '#e6edf3' } } }
+  }
+});
+</script>
+</body>
+</html>
