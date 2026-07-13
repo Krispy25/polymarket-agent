@@ -5,8 +5,16 @@ import json
 import os
 
 LOG_PATH = os.path.join(os.path.dirname(__file__), "paper_trades.csv")
+GRAPH_PATH = os.path.join(os.path.dirname(__file__), "..", "correlation_graph.json")
 OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "dashboard.html")
 STARTING_BANKROLL = 10_000.0
+
+
+def load_graph():
+    if not os.path.exists(GRAPH_PATH):
+        return None
+    with open(GRAPH_PATH) as f:
+        return json.load(f)
 
 
 def load_rows():
@@ -78,6 +86,13 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
 <canvas id="curveChart" height="80"></canvas>
 
+<h2>Correlated Exposure (by underlying event)</h2>
+<p style="color:#8b949e">Markets on the same event share risk -- these aren't independent bets. Clusters over 15% of bankroll are flagged.</p>
+<table>
+<tr><th>Event</th><th>Markets</th><th>Total Exposure</th><th>% of Bankroll</th></tr>
+{cluster_table_rows}
+</table>
+
 <h2>Open Positions</h2>
 <table>
 <tr><th>Question</th><th>Outcome</th><th>Entry Price</th><th>Days to Resolution</th><th>Position Size</th></tr>
@@ -138,7 +153,21 @@ def row_html(rows, kind):
     return "\n".join(out) if out else "<tr><td colspan='5'>None yet</td></tr>"
 
 
-def render(data):
+def cluster_table_html(graph):
+    if not graph or not graph["clusters"]:
+        return "<tr><td colspan='4'>No correlation graph yet -- run correlation_graph.py</td></tr>"
+    out = []
+    for c in graph["clusters"]:
+        css = " class='loss'" if c["over_limit"] else ""
+        out.append(
+            f"<tr><td{css}>{c['title']}</td><td{css}>{c['market_count']}</td>"
+            f"<td{css}>${c['total_exposure']:,.2f}</td><td{css}>{c['pct_of_bankroll']}%"
+            f"{' ⚠️' if c['over_limit'] else ''}</td></tr>"
+        )
+    return "\n".join(out)
+
+
+def render(data, graph=None):
     bankroll = data["curve"][-1]["bankroll"]
     html = HTML_TEMPLATE.format(
         bankroll=bankroll,
@@ -148,6 +177,7 @@ def render(data):
         open_count=data["open_count"],
         open_table_rows=row_html(data["open_rows"], "open"),
         settled_table_rows=row_html(data["settled_rows"], "settled"),
+        cluster_table_rows=cluster_table_html(graph),
         curve_json=json.dumps(data["curve"]),
     )
     with open(OUT_PATH, "w") as f:
@@ -157,4 +187,4 @@ def render(data):
 
 if __name__ == "__main__":
     rows = load_rows()
-    render(build_dashboard(rows))
+    render(build_dashboard(rows), load_graph())

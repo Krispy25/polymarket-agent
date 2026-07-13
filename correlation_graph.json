@@ -1,0 +1,232 @@
+{
+  "bankroll": 10000.0,
+  "clusters": [
+    {
+      "event_id": "691056",
+      "title": "France vs. Spain - Exact Score",
+      "market_count": 8,
+      "total_exposure": 3787.0,
+      "pct_of_bankroll": 37.87,
+      "over_limit": true,
+      "positions": [
+        {
+          "slug": "fifwc-fra-esp-2026-07-14-exact-score-3-1",
+          "question": "Exact Score: France 3 - 1 Spain?",
+          "outcome": "No",
+          "size": 454.5
+        },
+        {
+          "slug": "fifwc-fra-esp-2026-07-14-exact-score-0-2",
+          "question": "Exact Score: France 0 - 2 Spain?",
+          "outcome": "No",
+          "size": 456.5
+        },
+        {
+          "slug": "fifwc-fra-esp-2026-07-14-exact-score-3-2",
+          "question": "Exact Score: France 3 - 2 Spain?",
+          "outcome": "No",
+          "size": 471.5
+        },
+        {
+          "slug": "fifwc-fra-esp-2026-07-14-exact-score-1-3",
+          "question": "Exact Score: France 1 - 3 Spain?",
+          "outcome": "No",
+          "size": 472.5
+        },
+        {
+          "slug": "fifwc-fra-esp-2026-07-14-exact-score-3-0",
+          "question": "Exact Score: France 3 - 0 Spain?",
+          "outcome": "No",
+          "size": 476.5
+        },
+        {
+          "slug": "fifwc-fra-esp-2026-07-14-exact-score-2-3",
+          "question": "Exact Score: France 2 - 3 Spain?",
+          "outcome": "No",
+          "size": 477.5
+        },
+        {
+          "slug": "fifwc-fra-esp-2026-07-14-exact-score-3-3",
+          "question": "Exact Score: France 3 - 3 Spain?",
+          "outcome": "No",
+          "size": 488.5
+        },
+        {
+          "slug": "fifwc-fra-esp-2026-07-14-exact-score-0-3",
+          "question": "Exact Score: France 0 - 3 Spain?",
+          "outcome": "No",
+          "size": 489.5
+        }
+      ]
+    },
+    {
+      "event_id": "30829",
+      "title": "Democratic Presidential Nominee 2028",
+      "market_count": 4,
+      "total_exposure": 1917.0,
+      "pct_of_bankroll": 19.17,
+      "over_limit": true,
+      "positions": [
+        {
+          "slug": "will-john-fetterman-win-the-2028-democratic-presidential-nomination-941",
+          "question": "Will John Fetterman win the 2028 Democratic presidential nomination?",
+          "outcome": "No",
+          "size": 493.5
+        },
+        {
+          "slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination",
+          "question": "Will LeBron James win the 2028 Democratic presidential nomination?",
+          "outcome": "No",
+          "size": 493.5
+        },
+        {
+          "slug": "will-beto-orourke-win-the-2028-democratic-presidential-nomination",
+          "question": "Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
+          "outcome": "No",
+          "size": 494.5
+        },
+        {
+          "slug": "will-kim-kardashian-win-the-2028-democratic-presidential-nomination",
+          "question": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
+          "outcome": "No",
+          "size": 435.5
+        }
+      ]
+    },
+    {
+      "event_id": "413862",
+      "title": "World Cup: Golden Boot Winner",
+      "market_count": 2,
+      "total_exposure": 958.5,
+      "pct_of_bankroll": 9.59,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "will-jude-bellingham-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
+          "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
+          "outcome": "No",
+          "size": 466.5
+        },
+        {
+          "slug": "will-ousmane-dembele-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
+          "question": "Will Ousmane Dembele be the top goalscorer at the 2026 FIFA World Cup?",
+          "outcome": "No",
+          "size": 492.0
+        }
+      ]
+    },
+    {
+      "event_id": "31552",
+      "title": "Presidential Election Winner 2028",
+      "market_count": 1,
+      "total_exposure": 494.5,
+      "pct_of_bankroll": 4.95,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "will-eric-trump-win-the-2028-us-presidential-election",
+          "question": "Will Eric Trump win the 2028 US Presidential Election?",
+          "outcome": "No",
+          "size": 494.5
+        }
+      ]
+    },
+    {
+      "event_id": "100371",
+      "title": "F1 Drivers' Champion",
+      "market_count": 1,
+      "total_exposure": 494.5,
+      "pct_of_bankroll": 4.95,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "will-lando-norris-be-the-2026-f1-drivers-champion",
+          "question": "Will Lando Norris be the 2026 F1 Drivers' Champion?",
+          "outcome": "No",
+          "size": 494.5
+        }
+      ]
+    },
+    {
+      "event_id": "212877",
+      "title": "Will Samuel Alito announce his retirement by...?",
+      "market_count": 1,
+      "total_exposure": 485.5,
+      "pct_of_bankroll": 4.86,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "will-samuel-alito-announce-his-retirement-by-july-15-2026",
+          "question": "Will Samuel Alito announce his retirement by July 15, 2026?",
+          "outcome": "No",
+          "size": 485.5
+        }
+      ]
+    },
+    {
+      "event_id": "664768",
+      "title": "Elon Musk # tweets July 7 - July 14, 2026?",
+      "market_count": 1,
+      "total_exposure": 482.5,
+      "pct_of_bankroll": 4.83,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "elon-musk-of-tweets-july-7-july-14-160-179",
+          "question": "Will Elon Musk post 160-179 tweets from July 7 to July 14, 2026?",
+          "outcome": "No",
+          "size": 482.5
+        }
+      ]
+    },
+    {
+      "event_id": "449163",
+      "title": "Israel closes its airspace by...?",
+      "market_count": 1,
+      "total_exposure": 463.0,
+      "pct_of_bankroll": 4.63,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "israel-closes-its-airspace-by-july-15-182",
+          "question": "Israel closes its airspace by July 15?",
+          "outcome": "No",
+          "size": 463.0
+        }
+      ]
+    },
+    {
+      "event_id": "455867",
+      "title": "Strait of Hormuz traffic returns to normal by July 31?",
+      "market_count": 1,
+      "total_exposure": 462.5,
+      "pct_of_bankroll": 4.62,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "strait-of-hormuz-traffic-returns-to-normal-by-july-31",
+          "question": "Strait of Hormuz traffic returns to normal by July 31?",
+          "outcome": "No",
+          "size": 462.5
+        }
+      ]
+    },
+    {
+      "event_id": "620025",
+      "title": "US-Iran Final Nuclear Deal by\u2026?",
+      "market_count": 1,
+      "total_exposure": 455.0,
+      "pct_of_bankroll": 4.55,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "us-iran-final-nuclear-deal-by-august-18-2026-20260621201255153",
+          "question": "US-Iran Final Nuclear Deal by August 18, 2026?",
+          "outcome": "No",
+          "size": 455.0
+        }
+      ]
+    }
+  ],
+  "unclustered_count": 0
+}
