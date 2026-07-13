@@ -17,10 +17,19 @@ FIELDS = [
 
 
 def get_market_by_slug(slug):
-    resp = requests.get(f"{GAMMA_URL}/markets", params={"slug": slug}, timeout=10)
-    resp.raise_for_status()
-    results = resp.json()
-    return results[0] if results else None
+    # The Gamma API defaults to closed=false when unspecified, so a resolved
+    # market returns [] unless we explicitly ask for closed markets too.
+    for closed in (False, True):
+        resp = requests.get(
+            f"{GAMMA_URL}/markets",
+            params={"slug": slug, "closed": str(closed).lower()},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        results = resp.json()
+        if results:
+            return results[0]
+    return None
 
 
 def check_settlements():
