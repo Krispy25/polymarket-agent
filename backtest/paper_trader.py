@@ -13,6 +13,7 @@ LOG_PATH = os.path.join(os.path.dirname(__file__), "paper_trades.csv")
 BANKROLL = 10_000.0
 MAX_POSITION_PCT = 0.05  # never risk more than 5% of bankroll on one market
 MIN_DAYS_TO_RESOLUTION = 0.5  # skip markets resolving in <12h, too noisy to size sanely
+MIN_ORDER_SIZE = 5.0  # below this isn't worth logging as a position
 FIELDS = [
     "logged_at", "slug", "question", "outcome", "price",
     "days_to_resolution", "raw_return_pct", "position_size", "status",
@@ -30,16 +31,28 @@ def size_position(candidate, bankroll):
     return round(min(size, bankroll * MAX_POSITION_PCT), 2)
 
 
-def already_logged_slugs():
+def existing_rows():
     if not os.path.exists(LOG_PATH):
-        return set()
+        return []
     with open(LOG_PATH, newline="") as f:
-        return {row["slug"] for row in csv.DictReader(f)}
+        return list(csv.DictReader(f))
+
+
+def available_balance(rows, bankroll=BANKROLL):
+    """Real remaining capital: bankroll +/- realized pnl, minus whatever's
+    still tied up in open positions. Prevents sizing every new trade off a
+    static bankroll as if closed capital is instantly available again."""
+    realized_pnl = sum(float(r["pnl"]) for r in rows if r["status"] in ("win", "loss") and r["pnl"])
+    open_exposure = sum(float(r["position_size"]) for r in rows if r["status"] == "open")
+    return bankroll + realized_pnl - open_exposure
 
 
 def log_trades(candidates, bankroll=BANKROLL):
-    is_new = not os.path.exists(LOG_PATH)
-    seen = already_logged_slugs()
+    rows = existing_rows()
+    is_new = not rows
+    seen = {r["slug"] for r in rows}
+    balance = available_balance(rows, bankroll)
+
     with open(LOG_PATH, "a", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDS)
         if is_new:
@@ -49,9 +62,12 @@ def log_trades(candidates, bankroll=BANKROLL):
                 continue
             if c["days_to_resolution"] < MIN_DAYS_TO_RESOLUTION:
                 continue
-            size = size_position(c, bankroll)
-            if size <= 0:
+            if balance < MIN_ORDER_SIZE:
+                break  # out of capital -- stop opening new positions this run
+            size = min(size_position(c, bankroll), balance)
+            if size < MIN_ORDER_SIZE:
                 continue
+            balance -= size
             writer.writerow({
                 "logged_at": datetime.now(timezone.utc).isoformat(),
                 "slug": c["slug"],

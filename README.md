@@ -26,6 +26,22 @@ python3 scanner.py        # print current near-certain markets + naive returns
 python3 paper_trader.py   # size + log candidates to paper_trades.csv
 ```
 
+## 2026-07-13: bankroll tracking bug + reset
+
+`paper_trader.py` was sizing every new position off a static $10k bankroll
+regardless of how many positions were already open, so exposure ballooned
+past the real bankroll -- 146 open positions totaling $71,520 of "capital"
+against a $10,000 bankroll. Fixed by tracking a real running
+`available_balance()` (bankroll +/- realized pnl, minus open exposure) and
+refusing to size new positions once it's exhausted. The old log is archived
+at `backtest/paper_trades_presizingfix_archive.csv`; the live
+`paper_trades.csv` was reset to start clean with correct sizing.
+
+Also found and fixed a settlement checker bug the same day: the Gamma API
+defaults to `closed=false` when queried by slug without specifying it, so
+every resolved market silently looked "still open." Both fixes landed
+before this reset.
+
 ## Known gaps before this is a real strategy
 
 - `price` is used as the probability estimate in `paper_trader.py` —
