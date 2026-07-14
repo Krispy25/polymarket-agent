@@ -9,7 +9,7 @@ logged_at,slug,question,outcome,price,days_to_resolution,raw_return_pct,position
 2026-07-13T18:39:22.108994+00:00,fifwc-fra-esp-2026-07-14-exact-score-1-3,Exact Score: France 1 - 3 Spain?,No,0.9725,1.01,2.828,472.5,open,
 2026-07-13T18:39:22.109008+00:00,fifwc-fra-esp-2026-07-14-exact-score-3-0,Exact Score: France 3 - 0 Spain?,No,0.9765,1.01,2.407,476.5,open,
 2026-07-13T18:39:22.109020+00:00,fifwc-fra-esp-2026-07-14-exact-score-2-3,Exact Score: France 2 - 3 Spain?,No,0.9775,1.01,2.302,477.5,open,
-2026-07-13T18:39:22.109031+00:00,elon-musk-of-tweets-july-7-july-14-160-179,"Will Elon Musk post 160-179 tweets from July 7 to July 14, 2026?",No,0.9825,0.89,1.781,482.5,open,
+2026-07-13T18:39:22.109031+00:00,elon-musk-of-tweets-july-7-july-14-160-179,"Will Elon Musk post 160-179 tweets from July 7 to July 14, 2026?",No,0.9825,0.89,1.781,482.5,win,8.59
 2026-07-13T18:39:22.109044+00:00,will-samuel-alito-announce-his-retirement-by-july-15-2026,"Will Samuel Alito announce his retirement by July 15, 2026?",No,0.9855,171.22,1.471,485.5,open,
 2026-07-13T18:39:22.109056+00:00,fifwc-fra-esp-2026-07-14-exact-score-3-3,Exact Score: France 3 - 3 Spain?,No,0.9885,1.01,1.163,488.5,open,
 2026-07-13T18:39:22.109067+00:00,fifwc-fra-esp-2026-07-14-exact-score-0-3,Exact Score: France 0 - 3 Spain?,No,0.9895,1.01,1.061,489.5,open,

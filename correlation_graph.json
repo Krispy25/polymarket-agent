@@ -164,22 +164,6 @@
       ]
     },
     {
-      "event_id": "664768",
-      "title": "Elon Musk # tweets July 7 - July 14, 2026?",
-      "market_count": 1,
-      "total_exposure": 482.5,
-      "pct_of_bankroll": 4.83,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "elon-musk-of-tweets-july-7-july-14-160-179",
-          "question": "Will Elon Musk post 160-179 tweets from July 7 to July 14, 2026?",
-          "outcome": "No",
-          "size": 482.5
-        }
-      ]
-    },
-    {
       "event_id": "449163",
       "title": "Israel closes its airspace by...?",
       "market_count": 1,
