@@ -2,64 +2,6 @@
   "bankroll": 10000.0,
   "clusters": [
     {
-      "event_id": "691056",
-      "title": "France vs. Spain - Exact Score",
-      "market_count": 8,
-      "total_exposure": 3787.0,
-      "pct_of_bankroll": 37.87,
-      "over_limit": true,
-      "positions": [
-        {
-          "slug": "fifwc-fra-esp-2026-07-14-exact-score-3-1",
-          "question": "Exact Score: France 3 - 1 Spain?",
-          "outcome": "No",
-          "size": 454.5
-        },
-        {
-          "slug": "fifwc-fra-esp-2026-07-14-exact-score-0-2",
-          "question": "Exact Score: France 0 - 2 Spain?",
-          "outcome": "No",
-          "size": 456.5
-        },
-        {
-          "slug": "fifwc-fra-esp-2026-07-14-exact-score-3-2",
-          "question": "Exact Score: France 3 - 2 Spain?",
-          "outcome": "No",
-          "size": 471.5
-        },
-        {
-          "slug": "fifwc-fra-esp-2026-07-14-exact-score-1-3",
-          "question": "Exact Score: France 1 - 3 Spain?",
-          "outcome": "No",
-          "size": 472.5
-        },
-        {
-          "slug": "fifwc-fra-esp-2026-07-14-exact-score-3-0",
-          "question": "Exact Score: France 3 - 0 Spain?",
-          "outcome": "No",
-          "size": 476.5
-        },
-        {
-          "slug": "fifwc-fra-esp-2026-07-14-exact-score-2-3",
-          "question": "Exact Score: France 2 - 3 Spain?",
-          "outcome": "No",
-          "size": 477.5
-        },
-        {
-          "slug": "fifwc-fra-esp-2026-07-14-exact-score-3-3",
-          "question": "Exact Score: France 3 - 3 Spain?",
-          "outcome": "No",
-          "size": 488.5
-        },
-        {
-          "slug": "fifwc-fra-esp-2026-07-14-exact-score-0-3",
-          "question": "Exact Score: France 0 - 3 Spain?",
-          "outcome": "No",
-          "size": 489.5
-        }
-      ]
-    },
-    {
       "event_id": "30829",
       "title": "Democratic Presidential Nominee 2028",
       "market_count": 4,
@@ -144,6 +86,28 @@
           "question": "Will Lando Norris be the 2026 F1 Drivers' Champion?",
           "outcome": "No",
           "size": 494.5
+        }
+      ]
+    },
+    {
+      "event_id": "287395",
+      "title": "Fed Decision in July?",
+      "market_count": 2,
+      "total_exposure": 491.09,
+      "pct_of_bankroll": 4.91,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting",
+          "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
+          "outcome": "Yes",
+          "size": 450.5
+        },
+        {
+          "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting",
+          "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
+          "outcome": "No",
+          "size": 40.590000000000146
         }
       ]
     },
