@@ -36,24 +36,58 @@
       ]
     },
     {
-      "event_id": "413862",
-      "title": "World Cup: Golden Boot Winner",
+      "event_id": "708604",
+      "title": "Spain vs. Argentina - Exact Score",
+      "market_count": 4,
+      "total_exposure": 1878.0,
+      "pct_of_bankroll": 18.78,
+      "over_limit": true,
+      "positions": [
+        {
+          "slug": "fifwc-esp-arg-2026-07-19-exact-score-3-1",
+          "question": "Exact Score: Spain 3 - 1 Argentina?",
+          "outcome": "No",
+          "size": 461.5
+        },
+        {
+          "slug": "fifwc-esp-arg-2026-07-19-exact-score-3-0",
+          "question": "Exact Score: Spain 3 - 0 Argentina?",
+          "outcome": "No",
+          "size": 468.5
+        },
+        {
+          "slug": "fifwc-esp-arg-2026-07-19-exact-score-2-3",
+          "question": "Exact Score: Spain 2 - 3 Argentina?",
+          "outcome": "No",
+          "size": 470.5
+        },
+        {
+          "slug": "fifwc-esp-arg-2026-07-19-exact-score-3-2",
+          "question": "Exact Score: Spain 3 - 2 Argentina?",
+          "outcome": "No",
+          "size": 477.5
+        }
+      ]
+    },
+    {
+      "event_id": "100371",
+      "title": "F1 Drivers' Champion",
       "market_count": 2,
-      "total_exposure": 958.5,
-      "pct_of_bankroll": 9.59,
+      "total_exposure": 619.19,
+      "pct_of_bankroll": 6.19,
       "over_limit": false,
       "positions": [
         {
-          "slug": "will-jude-bellingham-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
-          "question": "Will Jude Bellingham be the top goalscorer at the 2026 FIFA World Cup?",
+          "slug": "will-lando-norris-be-the-2026-f1-drivers-champion",
+          "question": "Will Lando Norris be the 2026 F1 Drivers' Champion?",
           "outcome": "No",
-          "size": 466.5
+          "size": 494.5
         },
         {
-          "slug": "will-ousmane-dembele-be-the-top-goalscorer-at-the-2026-fifa-world-cup",
-          "question": "Will Ousmane Dembele be the top goalscorer at the 2026 FIFA World Cup?",
+          "slug": "will-max-verstappen-be-the-2026-f1-drivers-champion",
+          "question": "Will Max Verstappen be the 2026 F1 Drivers' Champion?",
           "outcome": "No",
-          "size": 492.0
+          "size": 124.69000000000051
         }
       ]
     },
@@ -68,22 +102,6 @@
         {
           "slug": "will-eric-trump-win-the-2028-us-presidential-election",
           "question": "Will Eric Trump win the 2028 US Presidential Election?",
-          "outcome": "No",
-          "size": 494.5
-        }
-      ]
-    },
-    {
-      "event_id": "100371",
-      "title": "F1 Drivers' Champion",
-      "market_count": 1,
-      "total_exposure": 494.5,
-      "pct_of_bankroll": 4.95,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "will-lando-norris-be-the-2026-f1-drivers-champion",
-          "question": "Will Lando Norris be the 2026 F1 Drivers' Champion?",
           "outcome": "No",
           "size": 494.5
         }
@@ -112,34 +130,34 @@
       ]
     },
     {
-      "event_id": "212877",
-      "title": "Will Samuel Alito announce his retirement by...?",
+      "event_id": "556270",
+      "title": "World Cup: Golden Ball Winner",
       "market_count": 1,
-      "total_exposure": 485.5,
-      "pct_of_bankroll": 4.86,
+      "total_exposure": 476.5,
+      "pct_of_bankroll": 4.76,
       "over_limit": false,
       "positions": [
         {
-          "slug": "will-samuel-alito-announce-his-retirement-by-july-15-2026",
-          "question": "Will Samuel Alito announce his retirement by July 15, 2026?",
+          "slug": "will-lamine-yamal-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032280",
+          "question": "Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?",
           "outcome": "No",
-          "size": 485.5
+          "size": 476.5
         }
       ]
     },
     {
-      "event_id": "449163",
-      "title": "Israel closes its airspace by...?",
+      "event_id": "572994",
+      "title": "President Trump to Attend World Cup Final?",
       "market_count": 1,
-      "total_exposure": 463.0,
-      "pct_of_bankroll": 4.63,
+      "total_exposure": 469.5,
+      "pct_of_bankroll": 4.7,
       "over_limit": false,
       "positions": [
         {
-          "slug": "israel-closes-its-airspace-by-july-15-182",
-          "question": "Israel closes its airspace by July 15?",
-          "outcome": "No",
-          "size": 463.0
+          "slug": "president-trump-to-attend-world-cup-final-20260608152749044",
+          "question": "President Trump to Attend World Cup Final?",
+          "outcome": "Yes",
+          "size": 469.5
         }
       ]
     },
