@@ -22,11 +22,17 @@ logged_at,slug,question,outcome,price,days_to_resolution,raw_return_pct,position
 2026-07-13T18:39:22.109158+00:00,will-kim-kardashian-win-the-2028-democratic-presidential-nomination,Will Kim Kardashian win the 2028 Democratic presidential nomination?,No,0.9945,847.22,0.553,435.5,open,
 2026-07-15T14:00:07.182782+00:00,will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting,Will there be no change in Fed interest rates after the July 2026 meeting?,Yes,0.9505,13.42,5.208,450.5,open,
 2026-07-15T14:00:07.182833+00:00,will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting,Will the Fed increase interest rates by 25 bps after the July 2026 meeting?,No,0.9525,13.42,4.987,40.590000000000146,open,
-2026-07-18T14:07:16.929146+00:00,fifwc-esp-arg-2026-07-19-exact-score-3-1,Exact Score: Spain 3 - 1 Argentina?,No,0.9615,1.2,4.004,461.5,open,
+2026-07-18T14:07:16.929146+00:00,fifwc-esp-arg-2026-07-19-exact-score-3-1,Exact Score: Spain 3 - 1 Argentina?,No,0.9615,1.2,4.004,461.5,win,18.48
 2026-07-18T14:07:16.929216+00:00,atp-vallejo-darderi-2026-07-18,Swedish Open: Adolfo Vallejo vs Luciano Darderi,Luciano Darderi,0.964,6.74,3.734,464.0,win,17.33
-2026-07-18T14:07:16.929242+00:00,fifwc-esp-arg-2026-07-19-exact-score-3-0,Exact Score: Spain 3 - 0 Argentina?,No,0.9685,1.2,3.252,468.5,open,
-2026-07-18T14:07:16.929261+00:00,president-trump-to-attend-world-cup-final-20260608152749044,President Trump to Attend World Cup Final?,Yes,0.9695,1.58,3.146,469.5,open,
-2026-07-18T14:07:16.929279+00:00,fifwc-esp-arg-2026-07-19-exact-score-2-3,Exact Score: Spain 2 - 3 Argentina?,No,0.9705,1.2,3.04,470.5,open,
-2026-07-18T14:07:16.929297+00:00,will-lamine-yamal-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032280,Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?,No,0.9765,1.58,2.407,476.5,open,
-2026-07-18T14:07:16.929314+00:00,fifwc-esp-arg-2026-07-19-exact-score-3-2,Exact Score: Spain 3 - 2 Argentina?,No,0.9775,1.2,2.302,477.5,open,
+2026-07-18T14:07:16.929242+00:00,fifwc-esp-arg-2026-07-19-exact-score-3-0,Exact Score: Spain 3 - 0 Argentina?,No,0.9685,1.2,3.252,468.5,win,15.24
+2026-07-18T14:07:16.929261+00:00,president-trump-to-attend-world-cup-final-20260608152749044,President Trump to Attend World Cup Final?,Yes,0.9695,1.58,3.146,469.5,win,14.77
+2026-07-18T14:07:16.929279+00:00,fifwc-esp-arg-2026-07-19-exact-score-2-3,Exact Score: Spain 2 - 3 Argentina?,No,0.9705,1.2,3.04,470.5,win,14.3
+2026-07-18T14:07:16.929297+00:00,will-lamine-yamal-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032280,Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?,No,0.9765,1.58,2.407,476.5,win,11.47
+2026-07-18T14:07:16.929314+00:00,fifwc-esp-arg-2026-07-19-exact-score-3-2,Exact Score: Spain 3 - 2 Argentina?,No,0.9775,1.2,2.302,477.5,win,10.99
 2026-07-18T14:07:16.929332+00:00,will-max-verstappen-be-the-2026-f1-drivers-champion,Will Max Verstappen be the 2026 F1 Drivers' Champion?,No,0.9775,140.41,2.302,124.69000000000051,open,
+2026-07-20T14:00:05.516628+00:00,iran-leadership-change-by-july-31-20260629143932628,Iran leadership change by July 31?,No,0.9515,10.42,5.097,451.5,open,
+2026-07-20T14:00:05.516714+00:00,will-ousmane-dembl-win-the-2026-ballon-dor,Will Ousmane Dembélé win the 2026 Ballon d'Or?,No,0.9735,102.42,2.722,473.5,open,
+2026-07-20T14:00:05.516744+00:00,wta-podrez-lee-2026-07-20,Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee,Carol Young Suh Lee,0.9815,6.85,1.885,481.5,open,
+2026-07-20T14:00:05.516772+00:00,will-khvicha-kvaratskhelia-win-the-2026-ballon-dor,Will Khvicha Kvaratskhelia win the 2026 Ballon d'Or?,No,0.9815,102.42,1.885,481.5,open,
+2026-07-20T14:00:05.516792+00:00,will-jalen-duren-play-for-the-cleveland-cavaliers-in-2026-27-20260622170634996,Will Jalen Duren play for the Cleveland Cavaliers in 2026-27?,No,0.982,103.42,1.833,482.0,open,
+2026-07-20T14:00:05.516815+00:00,will-lebron-james-play-for-the-minnesota-timberwolves-in-2026-27,Will LeBron James play for the Minnesota Timberwolves in 2026-27?,No,0.989,102.58,1.112,63.399999999999636,open,

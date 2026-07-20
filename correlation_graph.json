@@ -36,36 +36,24 @@
       ]
     },
     {
-      "event_id": "708604",
-      "title": "Spain vs. Argentina - Exact Score",
-      "market_count": 4,
-      "total_exposure": 1878.0,
-      "pct_of_bankroll": 18.78,
-      "over_limit": true,
+      "event_id": "48361",
+      "title": "Ballon d'Or Winner 2026",
+      "market_count": 2,
+      "total_exposure": 955.0,
+      "pct_of_bankroll": 9.55,
+      "over_limit": false,
       "positions": [
         {
-          "slug": "fifwc-esp-arg-2026-07-19-exact-score-3-1",
-          "question": "Exact Score: Spain 3 - 1 Argentina?",
+          "slug": "will-ousmane-dembl-win-the-2026-ballon-dor",
+          "question": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
           "outcome": "No",
-          "size": 461.5
+          "size": 473.5
         },
         {
-          "slug": "fifwc-esp-arg-2026-07-19-exact-score-3-0",
-          "question": "Exact Score: Spain 3 - 0 Argentina?",
+          "slug": "will-khvicha-kvaratskhelia-win-the-2026-ballon-dor",
+          "question": "Will Khvicha Kvaratskhelia win the 2026 Ballon d'Or?",
           "outcome": "No",
-          "size": 468.5
-        },
-        {
-          "slug": "fifwc-esp-arg-2026-07-19-exact-score-2-3",
-          "question": "Exact Score: Spain 2 - 3 Argentina?",
-          "outcome": "No",
-          "size": 470.5
-        },
-        {
-          "slug": "fifwc-esp-arg-2026-07-19-exact-score-3-2",
-          "question": "Exact Score: Spain 3 - 2 Argentina?",
-          "outcome": "No",
-          "size": 477.5
+          "size": 481.5
         }
       ]
     },
@@ -130,34 +118,34 @@
       ]
     },
     {
-      "event_id": "556270",
-      "title": "World Cup: Golden Ball Winner",
+      "event_id": "623833",
+      "title": "NBA Free Agency: Jalen Duren Next Team",
       "market_count": 1,
-      "total_exposure": 476.5,
-      "pct_of_bankroll": 4.76,
+      "total_exposure": 482.0,
+      "pct_of_bankroll": 4.82,
       "over_limit": false,
       "positions": [
         {
-          "slug": "will-lamine-yamal-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032280",
-          "question": "Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?",
+          "slug": "will-jalen-duren-play-for-the-cleveland-cavaliers-in-2026-27-20260622170634996",
+          "question": "Will Jalen Duren play for the Cleveland Cavaliers in 2026-27?",
           "outcome": "No",
-          "size": 476.5
+          "size": 482.0
         }
       ]
     },
     {
-      "event_id": "572994",
-      "title": "President Trump to Attend World Cup Final?",
+      "event_id": "721992",
+      "title": "Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee",
       "market_count": 1,
-      "total_exposure": 469.5,
-      "pct_of_bankroll": 4.7,
+      "total_exposure": 481.5,
+      "pct_of_bankroll": 4.82,
       "over_limit": false,
       "positions": [
         {
-          "slug": "president-trump-to-attend-world-cup-final-20260608152749044",
-          "question": "President Trump to Attend World Cup Final?",
-          "outcome": "Yes",
-          "size": 469.5
+          "slug": "wta-podrez-lee-2026-07-20",
+          "question": "Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee",
+          "outcome": "Carol Young Suh Lee",
+          "size": 481.5
         }
       ]
     },
@@ -190,6 +178,38 @@
           "question": "US-Iran Final Nuclear Deal by August 18, 2026?",
           "outcome": "No",
           "size": 455.0
+        }
+      ]
+    },
+    {
+      "event_id": "255195",
+      "title": "Iran leadership change by...?",
+      "market_count": 1,
+      "total_exposure": 451.5,
+      "pct_of_bankroll": 4.51,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "iran-leadership-change-by-july-31-20260629143932628",
+          "question": "Iran leadership change by July 31?",
+          "outcome": "No",
+          "size": 451.5
+        }
+      ]
+    },
+    {
+      "event_id": "362004",
+      "title": "NBA: LeBron James Next Team",
+      "market_count": 1,
+      "total_exposure": 63.4,
+      "pct_of_bankroll": 0.63,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "will-lebron-james-play-for-the-minnesota-timberwolves-in-2026-27",
+          "question": "Will LeBron James play for the Minnesota Timberwolves in 2026-27?",
+          "outcome": "No",
+          "size": 63.399999999999636
         }
       ]
     }
