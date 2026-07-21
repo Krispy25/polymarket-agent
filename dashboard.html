@@ -25,11 +25,11 @@
 <p style="color:#8b949e">Not real trading yet -- simulated positions only. See README for what's still missing before real capital.</p>
 
 <div class="stats">
-  <div class="stat"><div class="label">Bankroll</div><div class="value">$9,781.93</div></div>
-  <div class="stat"><div class="label">Total PnL</div><div class="value">$-218.07</div></div>
-  <div class="stat"><div class="label">Win Rate</div><div class="value">95.0%</div></div>
-  <div class="stat"><div class="label">Settled</div><div class="value">20</div></div>
-  <div class="stat"><div class="label">Open</div><div class="value">17</div></div>
+  <div class="stat"><div class="label">Bankroll</div><div class="value">$9,791.01</div></div>
+  <div class="stat"><div class="label">Total PnL</div><div class="value">$-208.99</div></div>
+  <div class="stat"><div class="label">Win Rate</div><div class="value">95.2%</div></div>
+  <div class="stat"><div class="label">Settled</div><div class="value">21</div></div>
+  <div class="stat"><div class="label">Open</div><div class="value">23</div></div>
 </div>
 
 <canvas id="curveChart" height="80"></canvas>
@@ -38,14 +38,18 @@
 <p style="color:#8b949e">Markets on the same event share risk -- these aren't independent bets. Clusters over 15% of bankroll are flagged.</p>
 <table>
 <tr><th>Event</th><th>Markets</th><th>Total Exposure</th><th>% of Bankroll</th></tr>
-<tr><td class='loss'>Democratic Presidential Nominee 2028</td><td class='loss'>4</td><td class='loss'>$1,917.00</td><td class='loss'>19.17% ⚠️</td></tr>
+<tr><td class='loss'>Democratic Presidential Nominee 2028</td><td class='loss'>5</td><td class='loss'>$2,036.25</td><td class='loss'>20.36% ⚠️</td></tr>
 <tr><td>Ballon d'Or Winner 2026</td><td>2</td><td>$955.00</td><td>9.55%</td></tr>
+<tr><td>NBA: 2027 Champion</td><td>2</td><td>$937.00</td><td>9.37%</td></tr>
 <tr><td>F1 Drivers' Champion</td><td>2</td><td>$619.19</td><td>6.19%</td></tr>
 <tr><td>Presidential Election Winner 2028</td><td>1</td><td>$494.50</td><td>4.95%</td></tr>
 <tr><td>Fed Decision in July?</td><td>2</td><td>$491.09</td><td>4.91%</td></tr>
 <tr><td>NBA Free Agency: Jalen Duren Next Team</td><td>1</td><td>$482.00</td><td>4.82%</td></tr>
-<tr><td>Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee</td><td>1</td><td>$481.50</td><td>4.82%</td></tr>
+<tr><td>What price will Bitcoin hit in July?</td><td>1</td><td>$466.00</td><td>4.66%</td></tr>
+<tr><td>Iran invades Kuwait by...?</td><td>1</td><td>$465.00</td><td>4.65%</td></tr>
+<tr><td>Hantavirus pandemic in 2026?</td><td>1</td><td>$464.50</td><td>4.64%</td></tr>
 <tr><td>Strait of Hormuz traffic returns to normal by July 31?</td><td>1</td><td>$462.50</td><td>4.62%</td></tr>
+<tr><td>Estoril Open: Nuno Borges vs Orlando Luz</td><td>1</td><td>$457.50</td><td>4.58%</td></tr>
 <tr><td>US-Iran Final Nuclear Deal by…?</td><td>1</td><td>$455.00</td><td>4.55%</td></tr>
 <tr><td>Iran leadership change by...?</td><td>1</td><td>$451.50</td><td>4.51%</td></tr>
 <tr><td>NBA: LeBron James Next Team</td><td>1</td><td>$63.40</td><td>0.63%</td></tr>
@@ -67,10 +71,16 @@
 <tr><td>Will Max Verstappen be the 2026 F1 Drivers' Champion?</td><td>No</td><td>0.978</td><td>140.41</td><td>$124.69</td></tr>
 <tr><td>Iran leadership change by July 31?</td><td>No</td><td>0.952</td><td>10.42</td><td>$451.50</td></tr>
 <tr><td>Will Ousmane Dembélé win the 2026 Ballon d'Or?</td><td>No</td><td>0.974</td><td>102.42</td><td>$473.50</td></tr>
-<tr><td>Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee</td><td>Carol Young Suh Lee</td><td>0.982</td><td>6.85</td><td>$481.50</td></tr>
 <tr><td>Will Khvicha Kvaratskhelia win the 2026 Ballon d'Or?</td><td>No</td><td>0.982</td><td>102.42</td><td>$481.50</td></tr>
 <tr><td>Will Jalen Duren play for the Cleveland Cavaliers in 2026-27?</td><td>No</td><td>0.982</td><td>103.42</td><td>$482.00</td></tr>
 <tr><td>Will LeBron James play for the Minnesota Timberwolves in 2026-27?</td><td>No</td><td>0.989</td><td>102.58</td><td>$63.40</td></tr>
+<tr><td>Estoril Open: Nuno Borges vs Orlando Luz</td><td>Nuno Borges</td><td>0.958</td><td>6.83</td><td>$457.50</td></tr>
+<tr><td>Hantavirus pandemic in 2026?</td><td>No</td><td>0.965</td><td>162.42</td><td>$464.50</td></tr>
+<tr><td>Iran invades Kuwait by August 31?</td><td>No</td><td>0.965</td><td>41.42</td><td>$465.00</td></tr>
+<tr><td>Will Denver Nuggets win the 2027 NBA Finals?</td><td>No</td><td>0.966</td><td>344.42</td><td>$465.50</td></tr>
+<tr><td>Will Bitcoin dip to $57,500 in July?</td><td>No</td><td>0.966</td><td>10.58</td><td>$466.00</td></tr>
+<tr><td>Will Detroit Pistons win the 2027 NBA Finals?</td><td>No</td><td>0.972</td><td>344.42</td><td>$471.50</td></tr>
+<tr><td>Will Mark Kelly win the 2028 Democratic presidential nomination?</td><td>No</td><td>0.981</td><td>839.42</td><td>$119.25</td></tr>
 </table>
 
 <h2>Settled Trades</h2>
@@ -96,10 +106,11 @@
 <tr><td>Exact Score: Spain 2 - 3 Argentina?</td><td>No</td><td>0.971</td><td class='win'>win</td><td class='win'>$14.30</td></tr>
 <tr><td>Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?</td><td>No</td><td>0.977</td><td class='win'>win</td><td class='win'>$11.47</td></tr>
 <tr><td>Exact Score: Spain 3 - 2 Argentina?</td><td>No</td><td>0.978</td><td class='win'>win</td><td class='win'>$10.99</td></tr>
+<tr><td>Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee</td><td>Carol Young Suh Lee</td><td>0.982</td><td class='win'>win</td><td class='win'>$9.08</td></tr>
 </table>
 
 <script>
-const curve = [{"trade": 0, "bankroll": 10000.0}, {"trade": 1, "bankroll": 10021.67}, {"trade": 2, "bankroll": 9565.17}, {"trade": 3, "bankroll": 9582.96}, {"trade": 4, "bankroll": 9599.13}, {"trade": 5, "bankroll": 9612.96}, {"trade": 6, "bankroll": 9626.32}, {"trade": 7, "bankroll": 9637.79}, {"trade": 8, "bankroll": 9648.78}, {"trade": 9, "bankroll": 9657.37}, {"trade": 10, "bankroll": 9664.51}, {"trade": 11, "bankroll": 9670.19}, {"trade": 12, "bankroll": 9675.38}, {"trade": 13, "bankroll": 9679.35}, {"trade": 14, "bankroll": 9697.83}, {"trade": 15, "bankroll": 9715.16}, {"trade": 16, "bankroll": 9730.4}, {"trade": 17, "bankroll": 9745.17}, {"trade": 18, "bankroll": 9759.47}, {"trade": 19, "bankroll": 9770.94}, {"trade": 20, "bankroll": 9781.93}];
+const curve = [{"trade": 0, "bankroll": 10000.0}, {"trade": 1, "bankroll": 10021.67}, {"trade": 2, "bankroll": 9565.17}, {"trade": 3, "bankroll": 9582.96}, {"trade": 4, "bankroll": 9599.13}, {"trade": 5, "bankroll": 9612.96}, {"trade": 6, "bankroll": 9626.32}, {"trade": 7, "bankroll": 9637.79}, {"trade": 8, "bankroll": 9648.78}, {"trade": 9, "bankroll": 9657.37}, {"trade": 10, "bankroll": 9664.51}, {"trade": 11, "bankroll": 9670.19}, {"trade": 12, "bankroll": 9675.38}, {"trade": 13, "bankroll": 9679.35}, {"trade": 14, "bankroll": 9697.83}, {"trade": 15, "bankroll": 9715.16}, {"trade": 16, "bankroll": 9730.4}, {"trade": 17, "bankroll": 9745.17}, {"trade": 18, "bankroll": 9759.47}, {"trade": 19, "bankroll": 9770.94}, {"trade": 20, "bankroll": 9781.93}, {"trade": 21, "bankroll": 9791.01}];
 new Chart(document.getElementById('curveChart'), {
   type: 'line',
   data: {
