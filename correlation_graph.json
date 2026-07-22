@@ -42,33 +42,11 @@
       ]
     },
     {
-      "event_id": "48361",
-      "title": "Ballon d'Or Winner 2026",
-      "market_count": 2,
-      "total_exposure": 955.0,
-      "pct_of_bankroll": 9.55,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "will-ousmane-dembl-win-the-2026-ballon-dor",
-          "question": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
-          "outcome": "No",
-          "size": 473.5
-        },
-        {
-          "slug": "will-khvicha-kvaratskhelia-win-the-2026-ballon-dor",
-          "question": "Will Khvicha Kvaratskhelia win the 2026 Ballon d'Or?",
-          "outcome": "No",
-          "size": 481.5
-        }
-      ]
-    },
-    {
       "event_id": "478277",
       "title": "NBA: 2027 Champion",
-      "market_count": 2,
-      "total_exposure": 937.0,
-      "pct_of_bankroll": 9.37,
+      "market_count": 3,
+      "total_exposure": 1401.5,
+      "pct_of_bankroll": 14.02,
       "over_limit": false,
       "positions": [
         {
@@ -82,6 +60,40 @@
           "question": "Will Detroit Pistons win the 2027 NBA Finals?",
           "outcome": "No",
           "size": 471.5
+        },
+        {
+          "slug": "will-cleveland-cavaliers-win-the-2027-nba-finals",
+          "question": "Will Cleveland Cavaliers win the 2027 NBA Finals?",
+          "outcome": "No",
+          "size": 464.5
+        }
+      ]
+    },
+    {
+      "event_id": "48361",
+      "title": "Ballon d'Or Winner 2026",
+      "market_count": 3,
+      "total_exposure": 981.08,
+      "pct_of_bankroll": 9.81,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "will-ousmane-dembl-win-the-2026-ballon-dor",
+          "question": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+          "outcome": "No",
+          "size": 473.5
+        },
+        {
+          "slug": "will-khvicha-kvaratskhelia-win-the-2026-ballon-dor",
+          "question": "Will Khvicha Kvaratskhelia win the 2026 Ballon d'Or?",
+          "outcome": "No",
+          "size": 481.5
+        },
+        {
+          "slug": "will-fabian-ruiz-win-the-2026-ballon-dor",
+          "question": "Will Fabian Ruiz win the 2026 Ballon d'Or?",
+          "outcome": "No",
+          "size": 26.079999999999927
         }
       ]
     },
@@ -222,22 +234,6 @@
           "question": "Strait of Hormuz traffic returns to normal by July 31?",
           "outcome": "No",
           "size": 462.5
-        }
-      ]
-    },
-    {
-      "event_id": "723172",
-      "title": "Estoril Open: Nuno Borges vs Orlando Luz",
-      "market_count": 1,
-      "total_exposure": 457.5,
-      "pct_of_bankroll": 4.58,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "atp-borges-luz-2026-07-21",
-          "question": "Estoril Open: Nuno Borges vs Orlando Luz",
-          "outcome": "Nuno Borges",
-          "size": 457.5
         }
       ]
     },

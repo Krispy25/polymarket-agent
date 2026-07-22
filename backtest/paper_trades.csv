@@ -36,10 +36,12 @@ logged_at,slug,question,outcome,price,days_to_resolution,raw_return_pct,position
 2026-07-20T14:00:05.516772+00:00,will-khvicha-kvaratskhelia-win-the-2026-ballon-dor,Will Khvicha Kvaratskhelia win the 2026 Ballon d'Or?,No,0.9815,102.42,1.885,481.5,open,
 2026-07-20T14:00:05.516792+00:00,will-jalen-duren-play-for-the-cleveland-cavaliers-in-2026-27-20260622170634996,Will Jalen Duren play for the Cleveland Cavaliers in 2026-27?,No,0.982,103.42,1.833,482.0,open,
 2026-07-20T14:00:05.516815+00:00,will-lebron-james-play-for-the-minnesota-timberwolves-in-2026-27,Will LeBron James play for the Minnesota Timberwolves in 2026-27?,No,0.989,102.58,1.112,63.399999999999636,open,
-2026-07-21T14:00:06.415893+00:00,atp-borges-luz-2026-07-21,Estoril Open: Nuno Borges vs Orlando Luz,Nuno Borges,0.9575,6.83,4.439,457.5,open,
+2026-07-21T14:00:06.415893+00:00,atp-borges-luz-2026-07-21,Estoril Open: Nuno Borges vs Orlando Luz,Nuno Borges,0.9575,6.83,4.439,457.5,win,20.31
 2026-07-21T14:00:06.416008+00:00,hantavirus-pandemic-in-2026,Hantavirus pandemic in 2026?,No,0.9645,162.42,3.681,464.5,open,
 2026-07-21T14:00:06.416036+00:00,iran-invades-kuwait-by-august-31-20260720015031546,Iran invades Kuwait by August 31?,No,0.965,41.42,3.627,465.0,open,
 2026-07-21T14:00:06.416058+00:00,will-denver-nuggets-win-the-2027-nba-finals,Will Denver Nuggets win the 2027 NBA Finals?,No,0.9655,344.42,3.573,465.5,open,
 2026-07-21T14:00:06.416078+00:00,will-bitcoin-dip-to-57pt5k-in-july-2026-618,"Will Bitcoin dip to $57,500 in July?",No,0.966,10.58,3.52,466.0,open,
 2026-07-21T14:00:06.416097+00:00,will-detroit-pistons-win-the-2027-nba-finals,Will Detroit Pistons win the 2027 NBA Finals?,No,0.9715,344.42,2.934,471.5,open,
 2026-07-21T14:00:06.416127+00:00,will-mark-kelly-win-the-2028-democratic-presidential-nomination-479,Will Mark Kelly win the 2028 Democratic presidential nomination?,No,0.9805,839.42,1.989,119.25,open,
+2026-07-22T14:00:01.378216+00:00,will-cleveland-cavaliers-win-the-2027-nba-finals,Will Cleveland Cavaliers win the 2027 NBA Finals?,No,0.9645,343.42,3.681,464.5,open,
+2026-07-22T14:00:01.378288+00:00,will-fabian-ruiz-win-the-2026-ballon-dor,Will Fabian Ruiz win the 2026 Ballon d'Or?,No,0.9835,100.42,1.678,26.079999999999927,open,
