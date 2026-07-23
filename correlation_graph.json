@@ -72,9 +72,9 @@
     {
       "event_id": "48361",
       "title": "Ballon d'Or Winner 2026",
-      "market_count": 3,
-      "total_exposure": 981.08,
-      "pct_of_bankroll": 9.81,
+      "market_count": 4,
+      "total_exposure": 1004.89,
+      "pct_of_bankroll": 10.05,
       "over_limit": false,
       "positions": [
         {
@@ -94,6 +94,12 @@
           "question": "Will Fabian Ruiz win the 2026 Ballon d'Or?",
           "outcome": "No",
           "size": 26.079999999999927
+        },
+        {
+          "slug": "will-lionel-messi-win-the-2026-ballon-dor",
+          "question": "Will Lionel Messi win the 2026 Ballon d'Or?",
+          "outcome": "No",
+          "size": 23.80999999999949
         }
       ]
     },
@@ -250,6 +256,22 @@
           "question": "US-Iran Final Nuclear Deal by August 18, 2026?",
           "outcome": "No",
           "size": 455.0
+        }
+      ]
+    },
+    {
+      "event_id": "276527",
+      "title": "Bab el-Mandeb Strait effectively closed by...?",
+      "market_count": 1,
+      "total_exposure": 454.0,
+      "pct_of_bankroll": 4.54,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "bab-el-mandeb-strait-effectively-closed-by-july-31",
+          "question": "Bab el-Mandeb Strait effectively closed by July 31?",
+          "outcome": "No",
+          "size": 454.0
         }
       ]
     },
