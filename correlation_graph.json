@@ -290,22 +290,6 @@
           "size": 451.5
         }
       ]
-    },
-    {
-      "event_id": "362004",
-      "title": "NBA: LeBron James Next Team",
-      "market_count": 1,
-      "total_exposure": 63.4,
-      "pct_of_bankroll": 0.63,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "will-lebron-james-play-for-the-minnesota-timberwolves-in-2026-27",
-          "question": "Will LeBron James play for the Minnesota Timberwolves in 2026-27?",
-          "outcome": "No",
-          "size": 63.399999999999636
-        }
-      ]
     }
   ],
   "unclustered_count": 0
