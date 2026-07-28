@@ -290,6 +290,22 @@
           "size": 451.5
         }
       ]
+    },
+    {
+      "event_id": "753450",
+      "title": "Targu Mures: Francesca Jones vs Chloe Paquet",
+      "market_count": 1,
+      "total_exposure": 64.11,
+      "pct_of_bankroll": 0.64,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "wta-jones-paquet-2026-07-28",
+          "question": "Targu Mures: Francesca Jones vs Chloe Paquet",
+          "outcome": "Francesca Jones",
+          "size": 64.11000000000058
+        }
+      ]
     }
   ],
   "unclustered_count": 0
