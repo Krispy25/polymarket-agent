@@ -126,6 +126,28 @@
       ]
     },
     {
+      "event_id": "655630",
+      "title": "What price will Bitcoin hit in July?",
+      "market_count": 2,
+      "total_exposure": 533.13,
+      "pct_of_bankroll": 5.33,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "will-bitcoin-dip-to-57pt5k-in-july-2026-618",
+          "question": "Will Bitcoin dip to $57,500 in July?",
+          "outcome": "No",
+          "size": 466.0
+        },
+        {
+          "slug": "will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14",
+          "question": "Will Bitcoin dip to $62,500 in July?",
+          "outcome": "No",
+          "size": 67.1299999999992
+        }
+      ]
+    },
+    {
       "event_id": "31552",
       "title": "Presidential Election Winner 2028",
       "market_count": 1,
@@ -142,28 +164,6 @@
       ]
     },
     {
-      "event_id": "287395",
-      "title": "Fed Decision in July?",
-      "market_count": 2,
-      "total_exposure": 491.09,
-      "pct_of_bankroll": 4.91,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting",
-          "question": "Will there be no change in Fed interest rates after the July 2026 meeting?",
-          "outcome": "Yes",
-          "size": 450.5
-        },
-        {
-          "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting",
-          "question": "Will the Fed increase interest rates by 25 bps after the July 2026 meeting?",
-          "outcome": "No",
-          "size": 40.590000000000146
-        }
-      ]
-    },
-    {
       "event_id": "623833",
       "title": "NBA Free Agency: Jalen Duren Next Team",
       "market_count": 1,
@@ -176,22 +176,6 @@
           "question": "Will Jalen Duren play for the Cleveland Cavaliers in 2026-27?",
           "outcome": "No",
           "size": 482.0
-        }
-      ]
-    },
-    {
-      "event_id": "655630",
-      "title": "What price will Bitcoin hit in July?",
-      "market_count": 1,
-      "total_exposure": 466.0,
-      "pct_of_bankroll": 4.66,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "will-bitcoin-dip-to-57pt5k-in-july-2026-618",
-          "question": "Will Bitcoin dip to $57,500 in July?",
-          "outcome": "No",
-          "size": 466.0
         }
       ]
     },

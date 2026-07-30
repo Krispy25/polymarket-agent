@@ -20,8 +20,8 @@ logged_at,slug,question,outcome,price,days_to_resolution,raw_return_pct,position
 2026-07-13T18:39:22.109130+00:00,will-lando-norris-be-the-2026-f1-drivers-champion,Will Lando Norris be the 2026 F1 Drivers' Champion?,No,0.9945,145.22,0.553,494.5,open,
 2026-07-13T18:39:22.109141+00:00,will-beto-orourke-win-the-2028-democratic-presidential-nomination,Will Beto O’Rourke win the 2028 Democratic presidential nomination?,No,0.9945,847.22,0.553,494.5,open,
 2026-07-13T18:39:22.109158+00:00,will-kim-kardashian-win-the-2028-democratic-presidential-nomination,Will Kim Kardashian win the 2028 Democratic presidential nomination?,No,0.9945,847.22,0.553,435.5,open,
-2026-07-15T14:00:07.182782+00:00,will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting,Will there be no change in Fed interest rates after the July 2026 meeting?,Yes,0.9505,13.42,5.208,450.5,open,
-2026-07-15T14:00:07.182833+00:00,will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting,Will the Fed increase interest rates by 25 bps after the July 2026 meeting?,No,0.9525,13.42,4.987,40.590000000000146,open,
+2026-07-15T14:00:07.182782+00:00,will-there-be-no-change-in-fed-interest-rates-after-the-july-2026-meeting,Will there be no change in Fed interest rates after the July 2026 meeting?,Yes,0.9505,13.42,5.208,450.5,win,23.46
+2026-07-15T14:00:07.182833+00:00,will-the-fed-increase-interest-rates-by-25-bps-after-the-july-2026-meeting,Will the Fed increase interest rates by 25 bps after the July 2026 meeting?,No,0.9525,13.42,4.987,40.590000000000146,win,2.02
 2026-07-18T14:07:16.929146+00:00,fifwc-esp-arg-2026-07-19-exact-score-3-1,Exact Score: Spain 3 - 1 Argentina?,No,0.9615,1.2,4.004,461.5,win,18.48
 2026-07-18T14:07:16.929216+00:00,atp-vallejo-darderi-2026-07-18,Swedish Open: Adolfo Vallejo vs Luciano Darderi,Luciano Darderi,0.964,6.74,3.734,464.0,win,17.33
 2026-07-18T14:07:16.929242+00:00,fifwc-esp-arg-2026-07-19-exact-score-3-0,Exact Score: Spain 3 - 0 Argentina?,No,0.9685,1.2,3.252,468.5,win,15.24
@@ -48,3 +48,4 @@ logged_at,slug,question,outcome,price,days_to_resolution,raw_return_pct,position
 2026-07-23T14:10:11.298597+00:00,bab-el-mandeb-strait-effectively-closed-by-july-31,Bab el-Mandeb Strait effectively closed by July 31?,No,0.954,7.41,4.822,454.0,open,
 2026-07-23T14:10:11.298660+00:00,will-lionel-messi-win-the-2026-ballon-dor,Will Lionel Messi win the 2026 Ballon d'Or?,No,0.9625,99.41,3.896,23.80999999999949,open,
 2026-07-28T14:00:06.882219+00:00,wta-jones-paquet-2026-07-28,Targu Mures: Francesca Jones vs Chloe Paquet,Francesca Jones,0.955,6.75,4.712,64.11000000000058,win,3.02
+2026-07-30T14:00:06.999044+00:00,will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14,"Will Bitcoin dip to $62,500 in July?",No,0.9505,1.58,5.208,67.1299999999992,open,
