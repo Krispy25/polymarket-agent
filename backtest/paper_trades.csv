@@ -49,3 +49,5 @@ logged_at,slug,question,outcome,price,days_to_resolution,raw_return_pct,position
 2026-07-23T14:10:11.298660+00:00,will-lionel-messi-win-the-2026-ballon-dor,Will Lionel Messi win the 2026 Ballon d'Or?,No,0.9625,99.41,3.896,23.80999999999949,open,
 2026-07-28T14:00:06.882219+00:00,wta-jones-paquet-2026-07-28,Targu Mures: Francesca Jones vs Chloe Paquet,Francesca Jones,0.955,6.75,4.712,64.11000000000058,win,3.02
 2026-07-30T14:00:06.999044+00:00,will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14,"Will Bitcoin dip to $62,500 in July?",No,0.9505,1.58,5.208,67.1299999999992,open,
+2026-07-31T14:00:06.281701+00:00,grvt-fdv-above-200m-one-day-after-launch-935,GRVT FDV above $200M one day after launch?,Yes,0.963,518.62,3.842,463.0,open,
+2026-07-31T14:00:06.281775+00:00,iran-leadership-change-by-august-31,Iran leadership change by August 31?,No,0.967,30.42,3.413,53.57000000000153,open,
