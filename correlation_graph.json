@@ -126,50 +126,6 @@
       ]
     },
     {
-      "event_id": "655630",
-      "title": "What price will Bitcoin hit in July?",
-      "market_count": 2,
-      "total_exposure": 533.13,
-      "pct_of_bankroll": 5.33,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "will-bitcoin-dip-to-57pt5k-in-july-2026-618",
-          "question": "Will Bitcoin dip to $57,500 in July?",
-          "outcome": "No",
-          "size": 466.0
-        },
-        {
-          "slug": "will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14",
-          "question": "Will Bitcoin dip to $62,500 in July?",
-          "outcome": "No",
-          "size": 67.1299999999992
-        }
-      ]
-    },
-    {
-      "event_id": "255195",
-      "title": "Iran leadership change by...?",
-      "market_count": 2,
-      "total_exposure": 505.07,
-      "pct_of_bankroll": 5.05,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "iran-leadership-change-by-july-31-20260629143932628",
-          "question": "Iran leadership change by July 31?",
-          "outcome": "No",
-          "size": 451.5
-        },
-        {
-          "slug": "iran-leadership-change-by-august-31",
-          "question": "Iran leadership change by August 31?",
-          "outcome": "No",
-          "size": 53.57000000000153
-        }
-      ]
-    },
-    {
       "event_id": "31552",
       "title": "Presidential Election Winner 2028",
       "market_count": 1,
@@ -234,22 +190,6 @@
       ]
     },
     {
-      "event_id": "230191",
-      "title": "GRVT FDV above ___ one day after launch?",
-      "market_count": 1,
-      "total_exposure": 463.0,
-      "pct_of_bankroll": 4.63,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "grvt-fdv-above-200m-one-day-after-launch-935",
-          "question": "GRVT FDV above $200M one day after launch?",
-          "outcome": "Yes",
-          "size": 463.0
-        }
-      ]
-    },
-    {
       "event_id": "455867",
       "title": "Strait of Hormuz traffic returns to normal by July 31?",
       "market_count": 1,
@@ -298,5 +238,5 @@
       ]
     }
   ],
-  "unclustered_count": 0
+  "unclustered_count": 1
 }

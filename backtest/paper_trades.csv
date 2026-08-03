@@ -30,7 +30,7 @@ logged_at,slug,question,outcome,price,days_to_resolution,raw_return_pct,position
 2026-07-18T14:07:16.929297+00:00,will-lamine-yamal-win-the-golden-ball-at-the-2026-fifa-world-cup-20260603194032280,Will Lamine Yamal win the Golden Ball at the 2026 FIFA World Cup?,No,0.9765,1.58,2.407,476.5,win,11.47
 2026-07-18T14:07:16.929314+00:00,fifwc-esp-arg-2026-07-19-exact-score-3-2,Exact Score: Spain 3 - 2 Argentina?,No,0.9775,1.2,2.302,477.5,win,10.99
 2026-07-18T14:07:16.929332+00:00,will-max-verstappen-be-the-2026-f1-drivers-champion,Will Max Verstappen be the 2026 F1 Drivers' Champion?,No,0.9775,140.41,2.302,124.69000000000051,open,
-2026-07-20T14:00:05.516628+00:00,iran-leadership-change-by-july-31-20260629143932628,Iran leadership change by July 31?,No,0.9515,10.42,5.097,451.5,open,
+2026-07-20T14:00:05.516628+00:00,iran-leadership-change-by-july-31-20260629143932628,Iran leadership change by July 31?,No,0.9515,10.42,5.097,451.5,win,23.01
 2026-07-20T14:00:05.516714+00:00,will-ousmane-dembl-win-the-2026-ballon-dor,Will Ousmane Dembélé win the 2026 Ballon d'Or?,No,0.9735,102.42,2.722,473.5,open,
 2026-07-20T14:00:05.516744+00:00,wta-podrez-lee-2026-07-20,Livesport Prague Open: Veronika Podrez vs Carol Young Suh Lee,Carol Young Suh Lee,0.9815,6.85,1.885,481.5,win,9.08
 2026-07-20T14:00:05.516772+00:00,will-khvicha-kvaratskhelia-win-the-2026-ballon-dor,Will Khvicha Kvaratskhelia win the 2026 Ballon d'Or?,No,0.9815,102.42,1.885,481.5,open,
@@ -40,7 +40,7 @@ logged_at,slug,question,outcome,price,days_to_resolution,raw_return_pct,position
 2026-07-21T14:00:06.416008+00:00,hantavirus-pandemic-in-2026,Hantavirus pandemic in 2026?,No,0.9645,162.42,3.681,464.5,open,
 2026-07-21T14:00:06.416036+00:00,iran-invades-kuwait-by-august-31-20260720015031546,Iran invades Kuwait by August 31?,No,0.965,41.42,3.627,465.0,open,
 2026-07-21T14:00:06.416058+00:00,will-denver-nuggets-win-the-2027-nba-finals,Will Denver Nuggets win the 2027 NBA Finals?,No,0.9655,344.42,3.573,465.5,open,
-2026-07-21T14:00:06.416078+00:00,will-bitcoin-dip-to-57pt5k-in-july-2026-618,"Will Bitcoin dip to $57,500 in July?",No,0.966,10.58,3.52,466.0,open,
+2026-07-21T14:00:06.416078+00:00,will-bitcoin-dip-to-57pt5k-in-july-2026-618,"Will Bitcoin dip to $57,500 in July?",No,0.966,10.58,3.52,466.0,win,16.4
 2026-07-21T14:00:06.416097+00:00,will-detroit-pistons-win-the-2027-nba-finals,Will Detroit Pistons win the 2027 NBA Finals?,No,0.9715,344.42,2.934,471.5,open,
 2026-07-21T14:00:06.416127+00:00,will-mark-kelly-win-the-2028-democratic-presidential-nomination-479,Will Mark Kelly win the 2028 Democratic presidential nomination?,No,0.9805,839.42,1.989,119.25,open,
 2026-07-22T14:00:01.378216+00:00,will-cleveland-cavaliers-win-the-2027-nba-finals,Will Cleveland Cavaliers win the 2027 NBA Finals?,No,0.9645,343.42,3.681,464.5,open,
@@ -48,6 +48,6 @@ logged_at,slug,question,outcome,price,days_to_resolution,raw_return_pct,position
 2026-07-23T14:10:11.298597+00:00,bab-el-mandeb-strait-effectively-closed-by-july-31,Bab el-Mandeb Strait effectively closed by July 31?,No,0.954,7.41,4.822,454.0,open,
 2026-07-23T14:10:11.298660+00:00,will-lionel-messi-win-the-2026-ballon-dor,Will Lionel Messi win the 2026 Ballon d'Or?,No,0.9625,99.41,3.896,23.80999999999949,open,
 2026-07-28T14:00:06.882219+00:00,wta-jones-paquet-2026-07-28,Targu Mures: Francesca Jones vs Chloe Paquet,Francesca Jones,0.955,6.75,4.712,64.11000000000058,win,3.02
-2026-07-30T14:00:06.999044+00:00,will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14,"Will Bitcoin dip to $62,500 in July?",No,0.9505,1.58,5.208,67.1299999999992,open,
-2026-07-31T14:00:06.281701+00:00,grvt-fdv-above-200m-one-day-after-launch-935,GRVT FDV above $200M one day after launch?,Yes,0.963,518.62,3.842,463.0,open,
+2026-07-30T14:00:06.999044+00:00,will-bitcoin-dip-to-62pt5k-in-july-2026-from-july-14,"Will Bitcoin dip to $62,500 in July?",No,0.9505,1.58,5.208,67.1299999999992,loss,-67.13
+2026-07-31T14:00:06.281701+00:00,grvt-fdv-above-200m-one-day-after-launch-935,GRVT FDV above $200M one day after launch?,Yes,0.963,518.62,3.842,463.0,win,17.79
 2026-07-31T14:00:06.281775+00:00,iran-leadership-change-by-august-31,Iran leadership change by August 31?,No,0.967,30.42,3.413,53.57000000000153,open,
