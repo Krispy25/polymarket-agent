@@ -228,22 +228,6 @@
       ]
     },
     {
-      "event_id": "455867",
-      "title": "Strait of Hormuz traffic returns to normal by July 31?",
-      "market_count": 1,
-      "total_exposure": 462.5,
-      "pct_of_bankroll": 4.62,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "strait-of-hormuz-traffic-returns-to-normal-by-july-31",
-          "question": "Strait of Hormuz traffic returns to normal by July 31?",
-          "outcome": "No",
-          "size": 462.5
-        }
-      ]
-    },
-    {
       "event_id": "48930",
       "title": "NATO x Russia military clash by...?",
       "market_count": 1,
@@ -256,22 +240,6 @@
           "question": "NATO x Russia military clash by August 31, 2026?",
           "outcome": "No",
           "size": 458.5
-        }
-      ]
-    },
-    {
-      "event_id": "276527",
-      "title": "Bab el-Mandeb Strait effectively closed by...?",
-      "market_count": 1,
-      "total_exposure": 454.0,
-      "pct_of_bankroll": 4.54,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "bab-el-mandeb-strait-effectively-closed-by-july-31",
-          "question": "Bab el-Mandeb Strait effectively closed by July 31?",
-          "outcome": "No",
-          "size": 454.0
         }
       ]
     },
