@@ -228,6 +228,22 @@
       ]
     },
     {
+      "event_id": "711714",
+      "title": "Israel x Iran ceasefire continues through...?",
+      "market_count": 1,
+      "total_exposure": 462.0,
+      "pct_of_bankroll": 4.62,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "israel-x-iran-ceasefire-continues-through-august-9-20260727170733638",
+          "question": "Israel x Iran ceasefire continues through August 9?",
+          "outcome": "Yes",
+          "size": 462.0
+        }
+      ]
+    },
+    {
       "event_id": "48930",
       "title": "NATO x Russia military clash by...?",
       "market_count": 1,
@@ -240,6 +256,38 @@
           "question": "NATO x Russia military clash by August 31, 2026?",
           "outcome": "No",
           "size": 458.5
+        }
+      ]
+    },
+    {
+      "event_id": "30828",
+      "title": "Xi Jinping out before 2027?",
+      "market_count": 1,
+      "total_exposure": 455.5,
+      "pct_of_bankroll": 4.55,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "xi-jinping-out-before-2027",
+          "question": "Xi Jinping out before 2027?",
+          "outcome": "No",
+          "size": 455.5
+        }
+      ]
+    },
+    {
+      "event_id": "276527",
+      "title": "Bab el-Mandeb Strait effectively closed by...?",
+      "market_count": 1,
+      "total_exposure": 38.91,
+      "pct_of_bankroll": 0.39,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "bab-el-mandeb-strait-effectively-closed-by-august-31",
+          "question": "Bab el-Mandeb Strait effectively closed by August 31?",
+          "outcome": "No",
+          "size": 38.909999999999854
         }
       ]
     },
