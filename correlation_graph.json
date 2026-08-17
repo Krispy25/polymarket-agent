@@ -228,22 +228,6 @@
       ]
     },
     {
-      "event_id": "711714",
-      "title": "Israel x Iran ceasefire continues through...?",
-      "market_count": 1,
-      "total_exposure": 462.0,
-      "pct_of_bankroll": 4.62,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "israel-x-iran-ceasefire-continues-through-august-9-20260727170733638",
-          "question": "Israel x Iran ceasefire continues through August 9?",
-          "outcome": "Yes",
-          "size": 462.0
-        }
-      ]
-    },
-    {
       "event_id": "48930",
       "title": "NATO x Russia military clash by...?",
       "market_count": 1,
@@ -288,22 +272,6 @@
           "question": "Bab el-Mandeb Strait effectively closed by August 31?",
           "outcome": "No",
           "size": 38.909999999999854
-        }
-      ]
-    },
-    {
-      "event_id": "677008",
-      "title": "Clacton by-election Winner",
-      "market_count": 1,
-      "total_exposure": 33.7,
-      "pct_of_bankroll": 0.34,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "will-count-binface-win-the-clacton-by-election-20260707211451133",
-          "question": "Will Count Binface win the Clacton by-election?",
-          "outcome": "No",
-          "size": 33.69999999999891
         }
       ]
     }
