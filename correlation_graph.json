@@ -228,6 +228,22 @@
       ]
     },
     {
+      "event_id": "45915",
+      "title": "Brazil Presidential Election",
+      "market_count": 1,
+      "total_exposure": 462.0,
+      "pct_of_bankroll": 4.62,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "will-renan-santos-win-the-2026-brazilian-presidential-election",
+          "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
+          "outcome": "No",
+          "size": 462.0
+        }
+      ]
+    },
+    {
       "event_id": "48930",
       "title": "NATO x Russia military clash by...?",
       "market_count": 1,
@@ -256,6 +272,22 @@
           "question": "Xi Jinping out before 2027?",
           "outcome": "No",
           "size": 455.5
+        }
+      ]
+    },
+    {
+      "event_id": "90177",
+      "title": "Will the US confirm that aliens exist by...?",
+      "market_count": 1,
+      "total_exposure": 52.34,
+      "pct_of_bankroll": 0.52,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "will-the-us-confirm-that-aliens-exist-before-2027-789-924-249",
+          "question": "Will the US confirm that aliens exist before 2027?",
+          "outcome": "No",
+          "size": 52.33999999999833
         }
       ]
     },
