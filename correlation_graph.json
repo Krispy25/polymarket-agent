@@ -104,28 +104,6 @@
       ]
     },
     {
-      "event_id": "620025",
-      "title": "US-Iran Final Nuclear Deal by\u2026?",
-      "market_count": 2,
-      "total_exposure": 915.0,
-      "pct_of_bankroll": 9.15,
-      "over_limit": false,
-      "positions": [
-        {
-          "slug": "us-iran-final-nuclear-deal-by-august-18-2026-20260621201255153",
-          "question": "US-Iran Final Nuclear Deal by August 18, 2026?",
-          "outcome": "No",
-          "size": 455.0
-        },
-        {
-          "slug": "us-iran-final-nuclear-deal-by-august-31-2026-20260621201255154",
-          "question": "US-Iran Final Nuclear Deal by August 31, 2026?",
-          "outcome": "No",
-          "size": 460.0
-        }
-      ]
-    },
-    {
       "event_id": "100371",
       "title": "F1 Drivers' Champion",
       "market_count": 2,
@@ -240,6 +218,22 @@
           "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
           "outcome": "No",
           "size": 462.0
+        }
+      ]
+    },
+    {
+      "event_id": "620025",
+      "title": "US-Iran Final Nuclear Deal by\u2026?",
+      "market_count": 1,
+      "total_exposure": 460.0,
+      "pct_of_bankroll": 4.6,
+      "over_limit": false,
+      "positions": [
+        {
+          "slug": "us-iran-final-nuclear-deal-by-august-31-2026-20260621201255154",
+          "question": "US-Iran Final Nuclear Deal by August 31, 2026?",
+          "outcome": "No",
+          "size": 460.0
         }
       ]
     },

@@ -1,6 +1,6 @@
 logged_at,slug,question,outcome,price,days_to_resolution,raw_return_pct,position_size,status,pnl
 2026-07-13T18:39:22.108880+00:00,fifwc-fra-esp-2026-07-14-exact-score-3-1,Exact Score: France 3 - 1 Spain?,No,0.9545,1.01,4.767,454.5,win,21.67
-2026-07-13T18:39:22.108906+00:00,us-iran-final-nuclear-deal-by-august-18-2026-20260621201255153,"US-Iran Final Nuclear Deal by August 18, 2026?",No,0.955,36.22,4.712,455.0,open,
+2026-07-13T18:39:22.108906+00:00,us-iran-final-nuclear-deal-by-august-18-2026-20260621201255153,"US-Iran Final Nuclear Deal by August 18, 2026?",No,0.955,36.22,4.712,455.0,win,21.44
 2026-07-13T18:39:22.108922+00:00,fifwc-fra-esp-2026-07-14-exact-score-0-2,Exact Score: France 0 - 2 Spain?,No,0.9565,1.01,4.548,456.5,loss,-456.5
 2026-07-13T18:39:22.108934+00:00,strait-of-hormuz-traffic-returns-to-normal-by-july-31,Strait of Hormuz traffic returns to normal by July 31?,No,0.9625,17.22,3.896,462.5,win,18.02
 2026-07-13T18:39:22.108946+00:00,israel-closes-its-airspace-by-july-15-182,Israel closes its airspace by July 15?,No,0.963,1.22,3.842,463.0,win,17.79

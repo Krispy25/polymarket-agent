@@ -25,11 +25,11 @@
 <p style="color:#8b949e">Not real trading yet -- simulated positions only. See README for what's still missing before real capital.</p>
 
 <div class="stats">
-  <div class="stat"><div class="label">Bankroll</div><div class="value">$9,889.15</div></div>
-  <div class="stat"><div class="label">Total PnL</div><div class="value">$-110.85</div></div>
-  <div class="stat"><div class="label">Win Rate</div><div class="value">94.1%</div></div>
-  <div class="stat"><div class="label">Settled</div><div class="value">34</div></div>
-  <div class="stat"><div class="label">Open</div><div class="value">27</div></div>
+  <div class="stat"><div class="label">Bankroll</div><div class="value">$9,910.59</div></div>
+  <div class="stat"><div class="label">Total PnL</div><div class="value">$-89.41</div></div>
+  <div class="stat"><div class="label">Win Rate</div><div class="value">94.3%</div></div>
+  <div class="stat"><div class="label">Settled</div><div class="value">35</div></div>
+  <div class="stat"><div class="label">Open</div><div class="value">26</div></div>
 </div>
 
 <canvas id="curveChart" height="80"></canvas>
@@ -41,7 +41,6 @@
 <tr><td class='loss'>Democratic Presidential Nominee 2028</td><td class='loss'>5</td><td class='loss'>$2,036.25</td><td class='loss'>20.36% ⚠️</td></tr>
 <tr><td>NBA: 2027 Champion</td><td>3</td><td>$1,401.50</td><td>14.02%</td></tr>
 <tr><td>Ballon d'Or Winner 2026</td><td>4</td><td>$1,004.89</td><td>10.05%</td></tr>
-<tr><td>US-Iran Final Nuclear Deal by…?</td><td>2</td><td>$915.00</td><td>9.15%</td></tr>
 <tr><td>F1 Drivers' Champion</td><td>2</td><td>$619.19</td><td>6.19%</td></tr>
 <tr><td>Presidential Election Winner 2028</td><td>1</td><td>$494.50</td><td>4.95%</td></tr>
 <tr><td>Fed Decision in September?</td><td>1</td><td>$485.50</td><td>4.86%</td></tr>
@@ -49,6 +48,7 @@
 <tr><td>Iran invades Kuwait by...?</td><td>1</td><td>$465.00</td><td>4.65%</td></tr>
 <tr><td>Hantavirus pandemic in 2026?</td><td>1</td><td>$464.50</td><td>4.64%</td></tr>
 <tr><td>Brazil Presidential Election</td><td>1</td><td>$462.00</td><td>4.62%</td></tr>
+<tr><td>US-Iran Final Nuclear Deal by…?</td><td>1</td><td>$460.00</td><td>4.6%</td></tr>
 <tr><td>NATO x Russia military clash by...?</td><td>1</td><td>$458.50</td><td>4.58%</td></tr>
 <tr><td>Xi Jinping out before 2027?</td><td>1</td><td>$455.50</td><td>4.55%</td></tr>
 <tr><td>Will the US confirm that aliens exist by...?</td><td>1</td><td>$52.34</td><td>0.52%</td></tr>
@@ -58,7 +58,6 @@
 <h2>Open Positions</h2>
 <table>
 <tr><th>Question</th><th>Outcome</th><th>Entry Price</th><th>Days to Resolution</th><th>Position Size</th></tr>
-<tr><td>US-Iran Final Nuclear Deal by August 18, 2026?</td><td>No</td><td>0.955</td><td>36.22</td><td>$455.00</td></tr>
 <tr><td>Will John Fetterman win the 2028 Democratic presidential nomination?</td><td>No</td><td>0.994</td><td>847.22</td><td>$493.50</td></tr>
 <tr><td>Will LeBron James win the 2028 Democratic presidential nomination?</td><td>No</td><td>0.994</td><td>847.22</td><td>$493.50</td></tr>
 <tr><td>Will Eric Trump win the 2028 US Presidential Election?</td><td>No</td><td>0.995</td><td>847.22</td><td>$494.50</td></tr>
@@ -91,6 +90,7 @@
 <table>
 <tr><th>Question</th><th>Outcome</th><th>Entry Price</th><th>Status</th><th>PnL</th></tr>
 <tr><td>Exact Score: France 3 - 1 Spain?</td><td>No</td><td>0.955</td><td class='win'>win</td><td class='win'>$21.67</td></tr>
+<tr><td>US-Iran Final Nuclear Deal by August 18, 2026?</td><td>No</td><td>0.955</td><td class='win'>win</td><td class='win'>$21.44</td></tr>
 <tr><td>Exact Score: France 0 - 2 Spain?</td><td>No</td><td>0.957</td><td class='loss'>loss</td><td class='loss'>$-456.50</td></tr>
 <tr><td>Strait of Hormuz traffic returns to normal by July 31?</td><td>No</td><td>0.963</td><td class='win'>win</td><td class='win'>$18.02</td></tr>
 <tr><td>Israel closes its airspace by July 15?</td><td>No</td><td>0.963</td><td class='win'>win</td><td class='win'>$17.79</td></tr>
@@ -127,7 +127,7 @@
 </table>
 
 <script>
-const curve = [{"trade": 0, "bankroll": 10000.0}, {"trade": 1, "bankroll": 10021.67}, {"trade": 2, "bankroll": 9565.17}, {"trade": 3, "bankroll": 9583.19}, {"trade": 4, "bankroll": 9600.98}, {"trade": 5, "bankroll": 9617.15}, {"trade": 6, "bankroll": 9630.98}, {"trade": 7, "bankroll": 9644.34}, {"trade": 8, "bankroll": 9655.81}, {"trade": 9, "bankroll": 9666.8}, {"trade": 10, "bankroll": 9675.39}, {"trade": 11, "bankroll": 9682.53}, {"trade": 12, "bankroll": 9688.21}, {"trade": 13, "bankroll": 9693.4}, {"trade": 14, "bankroll": 9697.37}, {"trade": 15, "bankroll": 9720.83}, {"trade": 16, "bankroll": 9722.85}, {"trade": 17, "bankroll": 9741.33}, {"trade": 18, "bankroll": 9758.66}, {"trade": 19, "bankroll": 9773.9}, {"trade": 20, "bankroll": 9788.67}, {"trade": 21, "bankroll": 9802.97}, {"trade": 22, "bankroll": 9814.44}, {"trade": 23, "bankroll": 9825.43}, {"trade": 24, "bankroll": 9848.44}, {"trade": 25, "bankroll": 9857.52}, {"trade": 26, "bankroll": 9858.23}, {"trade": 27, "bankroll": 9878.54}, {"trade": 28, "bankroll": 9894.94}, {"trade": 29, "bankroll": 9916.83}, {"trade": 30, "bankroll": 9919.85}, {"trade": 31, "bankroll": 9852.72}, {"trade": 32, "bankroll": 9870.51}, {"trade": 33, "bankroll": 9870.9}, {"trade": 34, "bankroll": 9889.15}];
+const curve = [{"trade": 0, "bankroll": 10000.0}, {"trade": 1, "bankroll": 10021.67}, {"trade": 2, "bankroll": 10043.11}, {"trade": 3, "bankroll": 9586.61}, {"trade": 4, "bankroll": 9604.63}, {"trade": 5, "bankroll": 9622.42}, {"trade": 6, "bankroll": 9638.59}, {"trade": 7, "bankroll": 9652.42}, {"trade": 8, "bankroll": 9665.78}, {"trade": 9, "bankroll": 9677.25}, {"trade": 10, "bankroll": 9688.24}, {"trade": 11, "bankroll": 9696.83}, {"trade": 12, "bankroll": 9703.97}, {"trade": 13, "bankroll": 9709.65}, {"trade": 14, "bankroll": 9714.84}, {"trade": 15, "bankroll": 9718.81}, {"trade": 16, "bankroll": 9742.27}, {"trade": 17, "bankroll": 9744.29}, {"trade": 18, "bankroll": 9762.77}, {"trade": 19, "bankroll": 9780.1}, {"trade": 20, "bankroll": 9795.34}, {"trade": 21, "bankroll": 9810.11}, {"trade": 22, "bankroll": 9824.41}, {"trade": 23, "bankroll": 9835.88}, {"trade": 24, "bankroll": 9846.87}, {"trade": 25, "bankroll": 9869.88}, {"trade": 26, "bankroll": 9878.96}, {"trade": 27, "bankroll": 9879.67}, {"trade": 28, "bankroll": 9899.98}, {"trade": 29, "bankroll": 9916.38}, {"trade": 30, "bankroll": 9938.27}, {"trade": 31, "bankroll": 9941.29}, {"trade": 32, "bankroll": 9874.16}, {"trade": 33, "bankroll": 9891.95}, {"trade": 34, "bankroll": 9892.34}, {"trade": 35, "bankroll": 9910.59}];
 new Chart(document.getElementById('curveChart'), {
   type: 'line',
   data: {
